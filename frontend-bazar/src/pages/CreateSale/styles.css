@@ -1,0 +1,66 @@
+#estilo {
+  background-color: #4169E1 !important;
+  width: 65%;
+  height: 60%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* background-image: url('../../assets/shop.svg'); */
+  /* background-position:; */
+  background-repeat: no-repeat;
+  padding-left: 25px;
+}
+
+.page-create-sale header{ 
+  margin-left: 80px;
+  color: #fff;
+  display: flex;
+  padding:15px   
+} 
+
+.page-create-sale header strong{
+  letter-spacing: 0.7px;
+  font-family: Ubuntu;
+  text-decoration: underline;
+}
+
+#cadastro .formulario form {
+  padding-top: 50px;
+  padding-left: 50px;
+  color: #fff;
+  width: 660px;
+}
+
+#cadastro .formulario form fieldset {
+  border-radius: 5px;
+  height: 300px;
+}
+
+#cadastro .formulario form fieldset legend{
+  text-indent:15px;
+  letter-spacing: 0.8px;
+  font-family: Ubuntu;
+}
+
+#descricao .descricao-pagina{
+  display: flex;
+  align-items: center
+}
+
+#descricao .descricao-pagina h2{
+  padding-left: 50px;
+  width: 400px;
+  padding-bottom: 40px;
+  color: #ffff;
+}
+#page-create-sale form .field input[type=text],
+#page-create-sale form .field input[type=email],
+#page-create-sale form .field input[type=number] {
+  flex: 1;
+  background: #F0F0F5;
+  border-radius: 8px;
+  border: 0;
+  padding: 16px 24px;
+  font-size: 16px;
+  color: #6C6C80;
+}
