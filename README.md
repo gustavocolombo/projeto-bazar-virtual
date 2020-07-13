@@ -10,12 +10,12 @@ descritivo nas imagens a seguir :
     ![home_ibuyonline](https://user-images.githubusercontent.com/66711378/87347633-eab0ae80-c529-11ea-821e-f9b71e8910a3.png)
   
   Página de cadastro: Onde ele pode voltar para a Home e analisar a proposta de negócio ou fazer o seu cadastro pessoal e dos itens para venda
-    ![Captura de tela de 2020-07-13 16-18-20](https://user-images.githubusercontent.com/66711378/87347590-da003880-c529-11ea-9892-740cf191dc18.png)
-   
-    ![Captura de tela de 2020-07-13 16-20-03](https://user-images.githubusercontent.com/66711378/87347600-dd93bf80-c529-11ea-9c86-de7a5c256e4f.png)
-  
+    
+![Captura de tela de 2020-07-13 16-20-03](https://user-images.githubusercontent.com/66711378/87348810-b938e280-c52b-11ea-9669-aba740c23217.png)
+![Captura de tela de 2020-07-13 16-20-19](https://user-images.githubusercontent.com/66711378/87348837-c786fe80-c52b-11ea-9859-afc73571e222.png)
   Quando nenhum item ainda está selecionado, ele ficará com a cor amarela, com o significado de que não está pronto ainda, ou não foi selecionado, caso o usuário clique em algum 
   dos itens, ele ficará verde, assim como se ele clicar no botão de submissão do formulário:
-    ![Captura de tela de 2020-07-13 16-20-19](https://user-images.githubusercontent.com/66711378/87347609-dff61980-c529-11ea-9231-ad29bcd20eb3.png)
+    ![Captura de tela de 2020-07-13 16-20-30](https://user-images.githubusercontent.com/66711378/87348858-cf46a300-c52b-11ea-91d6-a1f37384a943.png)
     
   E após a submissão do formulário, ele será redirecionado pra página inicial através da função useHistory e será exibido uma notificação em sua tela que o Post da venda foi criado, no estilo tostify
+  ![Captura de tela de 2020-07-13 16-18-20](https://user-images.githubusercontent.com/66711378/87347590-da003880-c529-11ea-9892-740cf191dc18.png)
