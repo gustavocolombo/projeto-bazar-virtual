@@ -1,0 +1,180 @@
+#estilo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+
+.page-create-sale header{ 
+  margin-top: 60px;
+
+  margin-right: 10px;
+  color: #4169E1;
+  align-items: center;
+  font-family: Ubuntu;
+  margin-left: 600px;
+} 
+
+.page-create-sale header strong{
+  letter-spacing: 0.7px;
+  text-decoration: underline;
+}
+
+.page-create-sale form {
+  margin: 80px auto;
+  padding: 64px;
+  max-width: 730px;
+  background: #FFFAFA;
+  border-radius: 8px;
+  -webkit-box-shadow: 10px 10px 13px 2px rgba(0,0,0,0.1);
+  -moz-box-shadow: 10px 10px 13px 2px rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 13px 2px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.page-create-sale form h1 {
+  font-size: 24px;
+  color: #4169E1;
+}
+
+.page-create-sale form fieldset {
+  margin-top: 64px;
+  min-inline-size: auto;
+  border: 0;  
+}
+
+.page-create-sale form legend {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  color: #4169E1;
+}
+
+.page-create-sale form legend h2 {
+  font-size: 24px;
+  color: #4169E1;
+
+}
+
+.page-create-sale form legend span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.page-create-sale form .field-group {
+  flex: 1;
+  display: flex;
+}
+
+.page-create-sale form .field {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  
+}
+
+.page-create-sale form .field input[type=text],
+.page-create-sale form .field input[type=email],
+.page-create-sale form .field input[type=number] {
+  flex: 1;
+  background: #F0F0F5;
+  border-radius: 6px;
+  border: 0;
+  padding: 10px 16px;
+  font-size: 16px;
+  color: #6C6C80;
+}
+
+.page-create-sale form .field input::placeholder {
+  color: #A0A0B2;
+}
+
+.page-create-sale form .field label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #4169E1;
+}
+
+.page-create-sale form .field select {
+  flex: 1;
+  background: #F0F0F5;
+  border-radius: 6px;
+  border: 0;
+  padding: 10px 16px;
+  font-size: 16px;
+  color: #6C6C80;
+}
+
+.page-create-sale form .leaflet-container {
+  width: 100%;
+  height: 350px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+
+
+.page-create-sale form button {
+  width: 260px;
+  height: 56px;
+  background: #FFDA44;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  align-self: flex-end;
+  margin-top: 40px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.page-create-sale form button:hover {
+  background: #2FB86E;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  list-style: none;
+}
+
+.items-grid li {
+  background: #fbdc75;
+  border: 2px solid #f5f5f5;
+  height: 180px;
+  border-radius: 8px;
+  padding: 32px 24px 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.items-grid li span { 
+  flex: 1;
+  margin-top: 12px;
+
+  display: flex;
+  align-items: center;
+  color: #262629;
+}
+
+.items-grid li.selected {
+  background: #2FB86E;
+  border: 2px solid #34CB79;
+}
